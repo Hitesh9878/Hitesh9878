@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Portfolio Hitesh</title>
+        <link rel="stylesheet" href="portfolio.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    </head>
+    <body>
+<div id="header">
+    <marquee>Last Updated 31-08-2024</marquee>
+    <div class="container">
+        <nav>
+            <img src="HITESH-logos_transparent.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home <i class="uil uil-home"></i></a></li>
+                <li><a href="#about">About <i class="uil uil-cloud-info"></i></a></li>
+                <li><a href="#services">Skills <i class="uil uil-wrench"></i></a></li>
+                <li><a href="#portfolio">Certificates <i class="uil uil-diary"></i></a></li>
+                <li><a href="#contact">Contact <i class="uil uil-comment-medical"></i></a></li>
+                <i class="uil uil-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="uil uil-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>UI/UX Desinger / Front-End Developer</p>
+            <h1>Hi, I'm BONAKURTHI <span>HITESH</span><br>From Hyderabad, India</h1>
+        </div>
+    </div>
+</div>
+<div id="about">
+    <div class="container">
+        <div class="row">
+           <div class="about-col-1">
+            <img src="c7.jpg">
+           </div> 
+           <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+                Hey there! I'm Hitesh, a driven undergraduate student at Anurag University with a passion for UI/UX design and front-end development. My journey in the world of technology began at TKR College of Engineering and Technology, where I completed my diploma. Before that, I laid the foundation for my academic pursuits at SR Digi School, where I developed a love for learning and innovation.
+                <br>
+                Throughout my academic career, I've been honored with the Best Student Award, a testament to my dedication and commitment to excellence. I've also had the privilege of clinching the top spot in the school's Project Expo, showcasing my knack for creativity and problem-solving. Moreover, my project earned recognition at an interschool competition, further fueling my passion for crafting impactful solutions.
+                <br>
+                Proficient in UI/UX design and front-end development, I specialize in turning ideas into visually stunning and user-friendly interfaces. My skill set includes mastery of CSS, HTML, and JavaScript, enabling me to bring concepts to life with seamless functionality and aesthetic appeal. Additionally, I have intermediate proficiency in Java, C, and Python, constantly expanding my programming repertoire to stay ahead of the curve.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')" data-tab="skills">Skills</p>
+                    <p class="tab-links active-link" onclick="opentab('education')" data-tab="education">Education</p>
+                </div>
+                
+                <div class="tab-contents" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web App Interface</li>
+                        <li><span>Front-End Developer</span><br>Web App development</li>
+                    </ul>
+                </div>
+                
+                <div class="tab-contents" id="education" style="display:none;">
+                    <ul>
+                        <li><span>2022 - Current</span><br>Anurag University(B-Tech in Information Technology)</li>
+                        <li><span>2019 - 2022</span><br>Diploma from TKR College of Engineering and Technology</li>
+                        <li><span>2019</span><br>10th from SR DIGI SCHOOL</li>
+                    </ul>
+                </div>                              
+           </div> 
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="services-list">
+                <div>
+                    <h2>
+                        <i class="uil uil-brackets-curly"></i>
+                        Web Design
+                        <p>specialize in creating visually stunning and user-friendly websites tailored to your brand. From sleek corporate sites to dynamic portfolios, I craft engaging online experiences that leave a lasting impression.</p>
+                        <a href="#">Learn more</a>
+                    </h2>
+                </div>
+                <div>
+                    <h2>
+                        <i class="uil uil-brackets-curly"></i>
+                        Front-End
+                        <p>Specialize in crafting responsive and intuitive front-end solutions tailored to your brand. From interactive user interfaces to seamless navigation, I develop engaging and functional web experiences that captivate users and elevate your online presence</p>
+                        <a href="#">Learn more</a>
+                    </h2>
+                </div>
+                <div>
+                    <h2>
+                        <i class="uil uil-crop-alt"></i>
+                        UI/UX Design
+                        <p>Specializing in UI/UX design, I create engaging interfaces that captivate users and elevate brands. Let's collaborate to transform your website into an immersive digital experience.</p>
+                        <a href="#">Learn more</a>
+                    </h2>
+                </div>
+                <div>
+                    <h2>
+                        <i class="uil uil-apps"></i>
+                        App Design
+                        <p>
+                            Crafting user-friendly mobile applications tailored to your needs. From concept to prototype, I ensure a seamless user experience that sets your brand apart. Let's collaborate to bring your vision to life.</p>
+                        <a href="#">Learn more</a>
+                    </h2>
+                </div>
+            </div>
+    </div>
+</div>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Certificates</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Google 1.png" alt="Image"  onclick="openPopup('Google 1.png')">
+                <div class="layer">
+                    <h3>Foundation of User Experience (UX) Design</h3>
+                    <p>"UX Design: Crafting user-friendly experiences. It's about understanding your audience, creating intuitive interfaces, and making products that people love to use.</p>
+                    <a href="https://coursera.org/verify/DN97TDZENSNK"> Certificate <i class="uil uil-external-link-alt"></i></a>
+                </div>
+                <div class="popup" id="popup">
+                    <img src="Google 1.png" alt="Popup Image" class="popup-image" id="popupImage">
+                    <span class="close" onclick="closePopup()">&times;</span>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Google 2.png" alt="Image"  onclick="openPopup('Google 2.png')">
+                <div class="layer">
+                    <h3>Start the UX Design Process: Empathize, Define,
+                        and Ideate</h3>
+                    <p>Start the UX Design Process: Empathize, Define, and Ideate. Understand your users' needs, define the problem, and generate creative solutions.</p>
+                    <a href="https://coursera.org/verify/Q9YLDX7596U2"> Certificate <i class="uil uil-external-link-alt"></i></a>
+                </div>
+                <div class="popup" id="popup">
+                    <img src="Google 2.png" alt="Popup Image" class="popup-image" id="popupImage">
+                    <span class="close" onclick="closePopup()">&times;</span>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Google 3.png" alt="Image"  onclick="openPopup('Google 3.png')">
+                <div class="layer">
+                    <h3>Build Wireframes and Low-Fidelity Prototypes</h3>
+                    <p>Build Wireframes and Prototypes: Sketch out the layout and functionality of your design to visualize the user interface and test early concepts.</p>
+                    <a href="https://coursera.org/verify/VLBWUD8GYRHG"> Certificate <i class="uil uil-external-link-alt"></i></a>
+                </div>
+            </div>
+                <div class="popup" id="popup">
+                    <img src="Google 3.png" alt="Popup Image" class="popup-image" id="popupImage">
+                    <span class="close" onclick="closePopup()">&times;</span>
+                </div>
+                <div class="work">
+                    <img src="Google 4.jpg" alt="Image"  onclick="openPopup('Google 4.jpg')">
+                    <div class="layer">
+                        <h3>Conduct UX Research and Test Early Concepts</h3>
+                        <p>Learn to create wireframes and prototypes that visualize design layouts and functionalities, enabling early testing and refinement of user interfaces based on feedback.</p>
+                        <a href="https://www.coursera.org/verify/9FQ4CBTBCW8W"> Certificate <i class="uil uil-external-link-alt"></i></a>
+                    </div>
+                    <div class="popup" id="popup">
+                        <img src="Nsic.png" alt="Popup Image" class="popup-image" id="popupImage">
+                        <span class="close" onclick="closePopup()">&times;</span>
+                    </div>
+            </div>
+            <div class="work">
+                <img src="Meta 1.png" alt="Image"  onclick="openPopup('Meta 1.png')">
+                <div class="layer">
+                    <h3>Introduction to Front-End Development</h3>
+                    <p>Introduction to Front-End Development: Crafting visual and interactive websites with HTML, CSS, and JavaScript for engaging user experiences and responsive designs.</p>
+                    <a href="https://coursera.org/verify/T22LUW3W5E54"> Certificate <i class="uil uil-external-link-alt"></i></a>
+                </div>
+                <div class="popup" id="popup">
+                    <img src="Meta 1.png" alt="Popup Image" class="popup-image" id="popupImage">
+                    <span class="close" onclick="closePopup()">&times;</span>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Meta 2.png" alt="Image"  onclick="openPopup('Meta 2.png')">
+                <div class="layer">
+                    <h3>Programming with JavaScript</h3>
+                    <p>Programming with JavaScript: Building dynamic web experiences. It's versatile, handling interactions, adding functionality, and content manipulation on websites.</p>
+                    <a href="https://coursera.org/verify/SFB6RKLNVT4F"> Certificate <i class="uil uil-external-link-alt"></i></a>
+                </div>
+                <div class="popup" id="popup">
+                    <img src="Meta 2.png" alt="Popup Image" class="popup-image" id="popupImage">
+                    <span class="close" onclick="closePopup()">&times;</span>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Nsic.png" alt="Image"  onclick="openPopup('Nsic.png')">
+                <div class="layer">
+                    <h3>JavaScript,Cyber Security,Python,Data Science Foundation</h3>
+                    <p>JavaScript, Cyber Security, Python, Data Science: Key tech blocks. JS for web, Cyber Security protects, Python versatile, Data Science insights.</p>
+                    <a href="https://drive.google.com/file/d/1zN9nexSpT3pkFK8kqvP6hfKQgcuZ4mKW/view?usp=drivesdk"> Certificate <i class="uil uil-external-link-alt"></i></a>
+                </div>
+                <div class="popup" id="popup">
+                    <img src="Nsic.png" alt="Popup Image" class="popup-image" id="popupImage">
+                    <span class="close" onclick="closePopup()">&times;</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="uil uil-message"></i> bonakurthihitesh@gmail.com </p>
+                <p><i class="uil uil-calling"></i> 7075012188</p>
+                <div class="social-icons">
+                    <a href="#"><i class="uil uil-facebook"></i></a>
+                    <a href="#"><i class="uil uil-twitter"></i></a>
+                    <a href="https://www.instagram.com/hitesh._10?igsh=MWdhbnVvZHJ4c200dg=="><i class="uil uil-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/bonakurthi-hitesh-b2495a255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="uil uil-linkedin"></i></a>
+                </div>
+                <a href="https://drive.google.com/file/d/1IHg85cYywr81oOZKCsuMQddVXzYWmkSq/view?usp=sharing"  download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="col-md-6 contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <p>***After submitting the contact response wait for the Successfull Message***</p>
+                    <button type="submit" class="btn btn3">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <p> Copyright &copy; 2024 Hitesh. All Rights Reserved.  </p>
+    <div class="social-icons re">
+        <a href="#"><i class="uil uil-facebook"></i></a>
+        <a href="#"><i class="uil uil-twitter"></i></a>
+        <a href="https://www.instagram.com/hitesh._10?igsh=MWdhbnVvZHJ4c200dg=="><i class="uil uil-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/bonakurthi-hitesh-b2495a255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="uil uil-linkedin"></i></a>
+    </div>
+</footer>
+  <button class="fixed-button" onclick="goToHomePage()"><i class="uil uil-angle-up"></i></button>
+<script src="portfolio.js"></script>
+    </body>
+</html>
